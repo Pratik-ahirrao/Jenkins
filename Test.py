@@ -24,6 +24,9 @@ class TestSum(unittest.TestCase):
         
         result = funct(5,6)
         self.assertEqual(result, 16)
+        
+        result = funct(6,7)
+        self.assertEqual(result, 12)
 
 if __name__ == '__main__':
     unittest.main()
